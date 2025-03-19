@@ -1,0 +1,26 @@
+Overall Accuracy: 0.6640
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       anger      0.571     0.522     0.545        23
+     disgust      0.316     1.000     0.480         6
+        fear      0.360     0.643     0.462        14
+         joy      0.800     0.632     0.706        38
+     neutral      0.829     0.696     0.757       125
+     sadness      0.478     0.458     0.468        24
+    surprise      0.630     0.850     0.723        20
+
+    accuracy                          0.664       250
+   macro avg      0.569     0.686     0.592       250
+weighted avg      0.712     0.664     0.676       250
+
+
+Accuracy per emotion:
+disgust: 1.000 (based on 6 samples)
+surprise: 0.850 (based on 20 samples)
+neutral: 0.696 (based on 125 samples)
+fear: 0.643 (based on 14 samples)
+joy: 0.632 (based on 38 samples)
+anger: 0.522 (based on 23 samples)
+sadness: 0.458 (based on 24 samples)
